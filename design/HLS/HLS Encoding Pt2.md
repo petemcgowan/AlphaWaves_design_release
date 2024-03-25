@@ -14,9 +14,9 @@ ffmpeg -i RainFallingOnLeaves.mp4 \
 DIRECTORY: RainInACarAltHD
 INPUT FILENAME: RainInACarAltHD
 
-ffmpeg -i RainInACarAltHD.mp4 \
+ffmpeg -i RainInACa800krAltHD.mp4 \
 -map 0:v:0 -b:v:0 500k -s:v:0 270x480 -c:v:0 libx264 \
--map 0:v:0 -b:v:1 800k -s:v:1 360x640 -c:v:1 libx264 \
+-map 0:v:0 -b:v:1  -s:v:1 360x640 -c:v:1 libx264 \
 -map 0:v:0 -b:v:2 1400k -s:v:2 540x960 -c:v:2 libx264 \
 -map 0:v:0 -b:v:3 2100k -s:v:3 720x1280 -c:v:3 libx264 \
 -map 0:v:0 -b:v:4 3000k -s:v:4 1080x1920 -c:v:4 libx264 \
